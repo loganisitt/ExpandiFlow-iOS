@@ -12,6 +12,8 @@
 		A7AE560F1F87DB78006B7F7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE560D1F87DB78006B7F7F /* Main.storyboard */; };
 		A7AE56111F87DB78006B7F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AE56101F87DB78006B7F7F /* Assets.xcassets */; };
 		A7AE56141F87DB78006B7F7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE56121F87DB78006B7F7F /* LaunchScreen.storyboard */; };
+		A7AE561C1F87DBBB006B7F7F /* ExpandiFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AE561B1F87DBBB006B7F7F /* ExpandiFlowLayout.swift */; };
+		A7AE561E1F87E526006B7F7F /* ExpandiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AE561D1F87E526006B7F7F /* ExpandiCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A7AE56101F87DB78006B7F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7AE56131F87DB78006B7F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7AE56151F87DB78006B7F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AE561B1F87DBBB006B7F7F /* ExpandiFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandiFlowLayout.swift; sourceTree = "<group>"; };
+		A7AE561D1F87E526006B7F7F /* ExpandiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandiCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				A7AE56091F87DB78006B7F7F /* AppDelegate.swift */,
 				A7AE560B1F87DB78006B7F7F /* ViewController.swift */,
+				A7AE561B1F87DBBB006B7F7F /* ExpandiFlowLayout.swift */,
+				A7AE561D1F87E526006B7F7F /* ExpandiCell.swift */,
 				A7AE560D1F87DB78006B7F7F /* Main.storyboard */,
 				A7AE56101F87DB78006B7F7F /* Assets.xcassets */,
 				A7AE56121F87DB78006B7F7F /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7AE561C1F87DBBB006B7F7F /* ExpandiFlowLayout.swift in Sources */,
 				A7AE560C1F87DB78006B7F7F /* ViewController.swift in Sources */,
+				A7AE561E1F87E526006B7F7F /* ExpandiCell.swift in Sources */,
 				A7AE560A1F87DB78006B7F7F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
